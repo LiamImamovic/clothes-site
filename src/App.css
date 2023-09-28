@@ -1,0 +1,164 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* #46f3a7 */
+/* #050505 */
+
+body {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.presentation {
+  height: 100vh;
+  color: #46f3a7;
+  background-color: #050505;
+}
+
+.presentation h2 {
+  left: 45%;
+  top: -22px;
+  width: max-content;
+
+  transform: translate(-50%, 0%);
+}
+
+.secondLine h2 {
+  left: 0%;
+  top: 32%;
+  width: max-content;
+
+  transform: translate(0%, -50%);
+}
+
+.secondLine p {
+  right: 7%;
+  top: 40%;
+
+  transform: translate(0%, -50%);
+}
+
+.thirdLine ul {
+  left: 0%;
+  top: 60%;
+
+  transform: translate(0%, -50%);
+}
+
+.thirdLine h2 {
+  left: 15%;
+  top: 52%;
+  transform: translate(0%, -50%);
+  z-index: 2;
+}
+
+.thirdLine h2:nth-child(2) {
+  top: 70%;
+}
+
+.getStarted {
+  right: 22%;
+  top: 57%;
+  transform: translate(0%, -50%);
+  z-index: 3;
+
+  background-color: #46f3a7;
+}
+
+.girl {
+  background-image: url(./assets/tshirt.png);
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 500px;
+  height: 300px;
+
+  position: absolute;
+  right: 2rem;
+  bottom: 2rem;
+  opacity: 0.7;
+  z-index: 2;
+}
+
+.fourthLine {
+  bottom: 5%;
+  left: 2rem;
+
+  width: 600px;
+  z-index: 2;
+}
+
+.fourthLine svg {
+  margin-left: 1rem;
+  width: 32px;
+}
+
+.catalog {
+  height: 100vh;
+  background-color: #46f3a7;
+  color: #050505;
+}
+
+.imgCatalog {
+  background-image: url(./assets//glasses.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  width: 450px;
+  height: 250px;
+}
+
+.ui {
+  right: -8%;
+  top: 0%;
+}
+
+.croptop {
+  top: 96.5%;
+  left: 34%;
+}
+
+.pants {
+  top: 115%;
+  left: 34%;
+}
+
+.tshirt {
+  top: 134%;
+  left: 34%;
+}
+
+.hotpants {
+  top: 153%;
+  left: 34%;
+}
+
+.catalog ul {
+  bottom: -98%;
+  left: 0;
+}
+
+.catalog p {
+  bottom: -92%;
+  left: 34%;
+
+  font-size: 14px;
+}
+
+.necklace {
+  background-image: url(./assets//necklace.png);
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  width: 225px;
+  height: 150px;
+
+  bottom: -98%;
+  right: 1rem;
+}
